@@ -348,6 +348,7 @@ main{
     height: calc(400px + 700px);
     background-size: cover;
     background-position: center;
+    width: 100%;
 }
 
 
@@ -398,18 +399,19 @@ main{
    
 }
 
-@font-face {
-    font-family:'god' ;
-    src: url(./font/WrathStyles.ttf);
-    
+.formuno{
+
+    position: relative;
+    left:-170px;
 }
 
 
-.h1targa{
 
+.h1targa{
+    
     font-family: 'god';
     font-size: 70px;
-   ;
+    
     color: white;
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
@@ -417,10 +419,115 @@ main{
 
 
 .modal-content{
-
+    
     background-image: url(https://images.unsplash.com/photo-1575833948662-cc99178abbb8?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-position: center;
     background-size: cover;
-    bo
+    
+}  
 
-}
+
+
+
+@font-face {
+        font-family:'god' ;
+        src: url(./font/WrathStyles.ttf);
+        
+    }
+
+
+    @media screen and (max-width:766px) {
+
+
+        .h1targa{
+
+            font-size:65px;
+        }
+
+        main{
+
+
+            height: fit-content;
+            
+        }
+
+        .card{
+
+            margin-bottom: 5px;
+        }
+
+
+     
+    }
+
+
+    @media screen and (max-width:992px) {
+
+
+        main{
+
+
+            height: fit-content;
+            
+        }
+
+        .card{
+
+            margin-bottom: 5px;
+        }
+
+
+       .forma{
+
+        padding-left: 30px;
+        margin-top: 20px;
+
+        
+       }
+
+       .form-control{
+
+        border: solid 3px yellow;
+       }
+
+       .btn-outline-success{
+
+        border: solid yellow 3px;
+        color: yellow;
+       }
+
+
+        
+
+       
+
+       .navbar-collapse{
+
+        display: flex;
+        justify-content: flex-start !important;
+        margin-top: 50px;
+        
+        background-color: rgba(100, 100, 100, 0.432);
+        width: 100% !important;
+        padding-left: 30px;
+        
+       }
+
+       .container-fluid{
+
+        padding: 0;
+       }
+
+       
+
+
+
+
+
+
+
+
+
+
+
+    }
