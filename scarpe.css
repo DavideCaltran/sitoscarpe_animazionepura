@@ -262,6 +262,7 @@ transition: 4s ;
     color: white;
     margin-left: 30px;
     
+    
 }
 
 .dropdown-menu:hover .dropdown-item{
@@ -306,5 +307,120 @@ transition: 4s ;
 
         font-weight: bold;
     }
+
+}
+
+.dropdown-item:hover{
+
+    background-color: rgb(87, 99, 109);
+    border-radius: 60%;
+    width: 100px;
+    transition: 4s;
+    animation-duration: 3s;
+    animation-delay: 0.25s;
+
+    
+}
+
+
+header{
+
+    height: fit-content;
+}
+
+
+nav{
+
+
+    background-image: url(https://media.istockphoto.com/id/1446450471/it/foto/luci-di-natale-sullo-sfondo-rosso.jpg?s=1024x1024&w=is&k=20&c=vee1D9LtY0F-dkuhj0wnq_whWlcvsLp6T4BU0gaHikw=);
+
+    background-position: top -1000px;
+
+   
+}
+
+main{
+
+    
+
+
+    background-image: url(https://images.unsplash.com/photo-1624320662835-de55e7682632?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height: calc(400px + 700px);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.card{
+
+
+    height: 400px;
+
+    border: solid 3px rgb(0, 0, 0);
+
+}
+
+
+.imgcard1{
+
+    height: 210px;
+    border-bottom: solid 3px black;
+   
+}
+
+.imgcard2{
+
+    height: 210px;
+    border-bottom: solid 3px black;
+   
+}.imgcard3{
+
+    height: 210px;
+    border-bottom: solid 3px black;
+   
+}.imgcard4{
+
+    height: 210px;
+    border-bottom: solid 3px black;
+   
+}.imgcard5{
+
+    height: 210px;
+    border-bottom: solid 3px black;
+
+   
+}.imgcard6{
+
+    height: 210px;
+    border-bottom: solid 3px black;
+
+    
+   
+}
+
+@font-face {
+    font-family:'god' ;
+    src: url(./font/WrathStyles.ttf);
+    
+}
+
+
+.h1targa{
+
+    font-family: 'god';
+    font-size: 70px;
+   ;
+    color: white;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+}
+
+
+.modal-content{
+
+    background-image: url(https://images.unsplash.com/photo-1575833948662-cc99178abbb8?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    bo
 
 }
